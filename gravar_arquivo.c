@@ -6,7 +6,7 @@ int main ()
    int n;
    char name [100];
 
-   pFile = fopen ("arquivo.txt","w");
+   pFile = fopen ("novo_arquivo.txt","w");
    for (n=0 ; n<3 ; n++)
    {
      puts ("Digite seu nome: ");
